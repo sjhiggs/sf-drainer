@@ -16,6 +16,7 @@ Simple util to move messages from AMQ Artemis Store-and-Forward queues back to o
 
 Came from:
 
+```
 VERSION=2.2.0.fuse-sb2-7_11_0-00022-redhat-00001
 ARCHETYPE=spring-boot-camel-amq-archetype
 
@@ -24,3 +25,4 @@ mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate \
 -DarchetypeGroupId=org.jboss.fuse.fis.archetypes \
 -DarchetypeArtifactId=$ARCHETYPE \
 -DarchetypeVersion=$VERSION
+```

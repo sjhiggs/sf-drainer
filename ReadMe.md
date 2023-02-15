@@ -11,3 +11,16 @@ Simple util to move messages from AMQ Artemis Store-and-Forward queues back to o
 1.  Configure the broker properties and source store-and-forward queue in src/main/resources/application.properties
 2.  Run against the broker: `mvn clean spring-boot:run`
 
+
+## Original project
+
+Came from:
+
+VERSION=2.2.0.fuse-sb2-7_11_0-00022-redhat-00001
+ARCHETYPE=spring-boot-camel-amq-archetype
+
+mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate \
+-DarchetypeCatalog=https://maven.repository.redhat.com/ga/io/fabric8/archetypes/archetypes-catalog/$VERSION/$VERSION-archetype-catalog.xml \
+-DarchetypeGroupId=org.jboss.fuse.fis.archetypes \
+-DarchetypeArtifactId=$ARCHETYPE \
+-DarchetypeVersion=$VERSION

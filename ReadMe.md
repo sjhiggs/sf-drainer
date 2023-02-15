@@ -1,6 +1,6 @@
 # SF Queue Drainer
 
-Warning!  Test in your environment, use at your own risk.
+Warning!  Test in your environment, use at your own risk.  It is unknown what will happen if the original queue is a muticast address/queue, for example.
 
 ## Description 
 

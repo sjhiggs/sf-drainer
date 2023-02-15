@@ -9,5 +9,5 @@ Simple util to move messages from AMQ Artemis Store-and-Forward queues back to o
 ## Usage
 
 1.  Configure the broker properties and source store-and-forward queue in src/main/resources/application.properties
-2   Run against the broker: `mvn clean spring-boot:run`
+2.  Run against the broker: `mvn clean spring-boot:run`
 
